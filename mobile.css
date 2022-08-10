@@ -1,0 +1,65 @@
+@media only screen and (max-width : 1120px){
+    
+    .nav-list{
+        flex-direction: column;
+        
+    }
+    .nav-list li{
+        margin: 6px 0px;
+    }
+    .rightnav{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.9s ease-out;
+        height: 330px;
+    }
+    #line{
+        visibility: hidden;
+    }
+    .burger{
+        visibility: visible;
+    }
+    .h-nav-resp{
+        height: 70px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .secondsection {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .para{
+        padding: 25px 10px;
+        text-align: left;
+    }
+    .big-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .normal-text{
+        text-align: center;
+    }
+    .buttons{
+        margin-top: 12px;
+        text-align: center;
+    }
+    
+
+.first-half {
+    width: 95%;
+    
+    margin-top: 20px;
+    padding: 0px 40px;
+}
+    
+}
